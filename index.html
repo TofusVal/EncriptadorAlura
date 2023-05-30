@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head class="principal">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 01 - Encriptador</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link class="icon_header" rel="icon" href="DECORATIVO/LUMALEE.PNG"/>
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/bf146b1637/UntitledProject/style.css">
+
+</head>
+<body>
+    <main>
+        <div class="contenedor-principal">
+            <div class="contenedor-central">
+                <div class="contenedor-izq">
+                    <div class="logo">
+                        <img src="DECORATIVO/logo.png" alt="imagen_logo">
+                    </div>
+                    <div class="area_texto">
+                        <textarea class="textIzq" name="TextoEncriptador" cols="30" rows="13" placeholder="Ingresa el texto aquí" required id="textIzq"></textarea>
+                    </div>
+                    <div class="warnings">
+                        <p class="warning"><i>&#9888 Solo se permiten letras minúsculas y sin acentos</i></p>
+                    </div>
+
+                    <div class="contenedorBotonesIzq">
+                        <input type="button" value="Encriptar 🔒" class="btn-encriptar" id="btn-encriptar" onclick="botonEncriptar">
+                        <input type="button" value="Desencriptar 🔓" class="btn-desencriptar" id="btn-desencriptar" onclick="botonDesencriptar">
+                    </div>
+                </div>
+
+                <div class="contenedor-der">
+
+                   
+                    <div id="sinMensaje" class="sinMensaje">
+                        <img class="img-lumalee" src="DECORATIVO/LUMALEE.PNG" alt="lumalee" id="img-lumalee">
+                        <p class="textoSinMensaje1" id="textoSinMensaje1">Ningún mensaje<br>fue encontrado</p>
+                        <p class="textoSinMensaje2" id="textoSinMensaje2">Ingresa el texto que desees encriptar <br>o descifrar</p>
+                        <p class="encriptar-desencriptar"></p>
+                        <p class="mensaje-resultado"></p>
+                        <button class="btn-copiar">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="application.js"></script>
+
+    <footer>
+        <p class="designed">Designed by <span class="nameD">TofusVal</span></p>
+
+        <div class="redes">
+            <a href="https://www.instagram.com/vvalentina.soff/" class="icon icon-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/valentina-villadiego/" class="icon icon-linkedin" target="_blank"></a>
+            <a href="https://github.com/TofusVal" class="icon icon-github" target="_blank"></a>
+        </div>
+        <div>
+            <p class="derechos">&copy 2023 Todos los derechos reservados por Valentina Sofia Villadiego Andrade | Oracle+AluraLatam. </p>
+        </div>
+    </footer>
+</body>
+</html>
