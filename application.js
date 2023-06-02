@@ -68,7 +68,7 @@ function recuperarTexto(){
     return texarea.value;
 }
 
-//Función declarada para que cuando encripte se oculte el pochita y el texto
+//Función declarada para que cuando encripte se oculte lumalee y el texto
 function ocultarDerecha(){
     lumalee.classList.add("hide");
     mensaje.classList.add("hide");
